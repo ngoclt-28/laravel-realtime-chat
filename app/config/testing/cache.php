@@ -1,5 +1,4 @@
 <?php
-
 return array(
 
 	/*
@@ -15,6 +14,5 @@ return array(
 	|
 	*/
 
-	'driver' => 'array',
-
+	'driver' => 'array' 
 );

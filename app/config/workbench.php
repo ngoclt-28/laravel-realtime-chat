@@ -1,5 +1,4 @@
 <?php
-
 return array(
 
 	/*
@@ -26,6 +25,5 @@ return array(
 	|
 	*/
 
-	'email' => '',
-
+	'email' => '' 
 );

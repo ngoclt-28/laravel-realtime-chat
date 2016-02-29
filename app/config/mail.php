@@ -1,5 +1,4 @@
 <?php
-
 return array(
 
 	/*
@@ -54,7 +53,10 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => null, 'name' => null),
+	'from' => array (
+				'address' => null,
+				'name' => null 
+		),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -119,6 +121,5 @@ return array(
 	|
 	*/
 
-	'pretend' => false,
-
+	'pretend' => false 
 );

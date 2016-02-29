@@ -1,5 +1,4 @@
 <?php
-
 return array(
 
 	/*
@@ -30,8 +29,8 @@ return array(
 	*/
 
 	'lifetime' => 120,
-
-	'expire_on_close' => false,
+		
+		'expire_on_close' => false,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -44,7 +43,7 @@ return array(
 	|
 	*/
 
-	'files' => storage_path().'/sessions',
+	'files' => storage_path () . '/sessions',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -83,7 +82,10 @@ return array(
 	|
 	*/
 
-	'lottery' => array(2, 100),
+	'lottery' => array (
+				2,
+				100 
+		),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -135,6 +137,5 @@ return array(
 	|
 	*/
 
-	'secure' => false,
-
+	'secure' => false 
 );

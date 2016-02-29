@@ -1,6 +1,4 @@
 <?php
-
 class ConversationUser extends Eloquent {
-
-    protected $table = "conversations_users";
+	protected $table = "conversations_users";
 }

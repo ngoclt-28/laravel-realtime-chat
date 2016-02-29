@@ -1,4 +1,3 @@
 <?php
-
-Event::listen(ChatMessagesEventHandler::EVENT, 'ChatMessagesEventHandler');
-Event::listen(ChatConversationsEventHandler::EVENT, 'ChatConversationsEventHandler');
+Event::listen ( ChatMessagesEventHandler::EVENT, 'ChatMessagesEventHandler' );
+Event::listen ( ChatConversationsEventHandler::EVENT, 'ChatConversationsEventHandler' );
